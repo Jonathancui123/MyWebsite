@@ -1,10 +1,8 @@
 #website{
     width: 100vw;
     min-height: 100vh;
-}
-
-#body{
 	cursor: url('/Images/paw.png'), auto;
+    overflow-x: hidden;
 }
 #name{
     height: 150vh;

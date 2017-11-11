@@ -1,4 +1,35 @@
-
+#listIcon{
+    position: absolute;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#buttons{
+    position: absolute;
+    margin-top: 80px;
+    left: -320px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #616977;
+    height: 50vh;
+    width: 300px;
+}
+.dot{
+    font-size: 30px;
+    height: 8vh;
+    width: 300px;
+    border-bottom: 1px solid;
+    text-align: center;
+    color: white;
+    padding-top: 2vh;
+}
+#nav5{
+    border-bottom: 0px solid;
+}
+.dot:hover{
+	background-color: #d6e5ff;
+    color:#689fff;
+}
 #loveOut{
 	z-index: 3;
 	position: relative;
@@ -25,20 +56,19 @@
 .loveTexts{
 	position: relative;
     text-align: center;
-    margin-left: 7vw;
+    margin-left: -2vw;
     margin-bottom: 50px;
-    width: 50vw;
+    width: 70vw;
 }
 
 #loveDetTitle{
 	font-size: 30px;
-	width: 50vw;
+	width: 70vw;
 }
 
 #loveDes{
 	font-size: 20px;
-	width: 50vw;
-    background-color: antiquewhite;
+	width: 70vw;
 }
 
 #lovePic{
@@ -48,19 +78,29 @@
 }
 
 
+
+#who{
+	background-color: #ededed;
+	height: calc(100vw + 250px);
+    width: 100vw;
+}
+#whoInfo{
+    width: 96vw;
+    margin-left: 2vw;
+    margin-top: 60px;
+}
 .whoSub{
     float: left;
 	left: 100px;
-	width: 24vw;
-	height: 17vw;
+	width: 32vw;
+	height: 24vw;
     overflow: hidden;
 	font-size: 40px;
-    background-color: red;
 }
 .whoPic{
 	position: absolute;
-    width: 24vw;
-    height: 18vw;
+    width: 32vw;
+    height: 25vw;
 	text-align:center;
 	display:block;
     margin-top: -5px;

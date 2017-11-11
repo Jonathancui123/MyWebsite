@@ -41,37 +41,6 @@
 	border-bottom: 1px solid lightgrey;
 }
 
-.dot{
-    float: right;
-    text-align: center;
-	padding: 0.7vw;
-	margin-right: 0.2vw;
-    margin-top: calc(30px - 0.8vw);
-    font-size: calc(10px + 0.8vw);
-	border-radius: 20px;
-	color: #66a0ff;
-}
-.dot:hover{
-	background-color: #d6e5ff;
-    color:#689fff;
-}
-#nav1{
-    width: calc(80px + 0.8vw);
-}
-#nav2{
-    width: calc(50px + 0.8vw);
-}
-#nav3{
-    width: calc(40px + 0.8vw);
-}
-#nav4{
-    width: calc(125px + 0.8vw);
-}
-#nav5{
-    width: calc(90px + 0.8vw);
-    margin-right: 2vw;
-}
-
 #contents{
 	margin-top: 100vh;
 	width: 99vw;
@@ -157,36 +126,10 @@
 
 
 
-
-
-
 #loveTitle{
 	margin-left: calc(43vw - 120px);
 	width: calc(15vw + 230px);
 	background-color: #ededed;
-}
-
-#loveOut{
-	z-index: 3;
-	position: relative;
-	background-color: #ededed;
-	margin-top: -60px;
-    width: 100vw;
-}
-
-#loveSubTitle{
-	font-family: "Antic Didone";
-	font-size: 30px;
-    width: 30vw;
-    text-align: center;
-    margin-left: 18vw;
-	margin-top: 70px;
-	margin-bottom: 60px;
-    color: #707070;
-}
-#loveSub{
-	min-height: 250px;
-    margin-bottom: 10px;
 }
 
 
@@ -197,7 +140,7 @@
 	background-color: #fcfcfc;
 	margin-top: -60px;
     padding-bottom: 80px;
-    height: 230vw;
+    min-height: 230vw;
     width: 100vw;
 }
 
@@ -273,28 +216,22 @@
 
 .musicButton{
     position: absolute;
-    width: 100px;
-    margin-top: 150px;
+    width: 14vw;
+    margin-top: calc(10vw + 40px);
+    margin-left: calc(35vw + 10px);
+    z-index: 5;
 }
 
 
-#who{
-	background-color: #ededed;
-	height: calc(60vw + 200px);
-    width: 100vw;
-}
 #whoTitle{
 	margin-left: calc(46vw - 100px);
 	width: calc(9vw + 180px);
 	background-color: #ededed;
 }
-#whoInfo{
-    width: 96vw;
-    margin-left: 2vw;
-    margin-top: 60px;
-}
 
 #more{
+    padding-top: 40px;
+	background-color: #fcfcfc;
 }
 
 #moreTitle{
@@ -306,6 +243,8 @@
 #morePic{
 	width: 90vw;
 	margin-left: 5vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .morePic{

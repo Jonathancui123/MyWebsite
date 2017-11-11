@@ -96,6 +96,14 @@
 	z-index: 3;
     margin-top: calc(14px - 1vw);
 }
+#titleDes{
+    width: 80vw;
+    height: 50px;
+    margin-left: 10vw;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
 
 
 #thingsTitle{
@@ -180,36 +188,6 @@
 	min-height: 250px;
     margin-bottom: 10px;
 }
-.loveSubLine{
-	width: 400px;
-	margin-top: -70px;
-	margin-bottom: 40px;
-	margin-left: 200px;
-}
-.loveTexts{
-	position: relative;
-	left: 32vw;
-    width: 30vw;
-	min-height: 200px;
-}
-
-#loveDetTitle{
-	font-size: 30px;
-	width: 30vw;
-}
-
-#loveDes{
-	font-size: 20px;
-	width: 30vw;
-}
-
-#lovePic{
-	position: absolute;
-	border-radius: 40px;
-	left: 5vw;
-	width: 20vw;
-}
-
 
 
 
@@ -269,9 +247,10 @@
     margin-left: calc(35vw - 120px);
 }
 #musicDes3{
+    background-color: blue;
     margin-left: calc(35vw - 120px);
     margin-top: calc(30vw + 150px);
-    width: calc(18vw + 390px);
+    width: calc(33vw + 200px);
 }
 .musicVidSub{
     position: relative;
@@ -350,12 +329,12 @@
 #moreTitle{
     margin-top: 40px;
     font-size: 40px;
-    margin-left: calc(48vw - 150px);
+    margin-left: calc(52vw - 170px);
 }
 
 #morePic{
 	width: 90vw;
-	margin-left: 3vw;
+	margin-left: 5vw;
 }
 
 .morePic{

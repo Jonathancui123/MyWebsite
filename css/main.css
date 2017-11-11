@@ -83,7 +83,7 @@
 	padding-top: 100px;
 	margin-bottom: 30px;
 	margin-left: calc(30vw - 100px);
-	border-bottom: 2px solid #003a99;
+	border-bottom: 2px solid;
 }
 
 .title{
@@ -94,7 +94,6 @@
 	position: absolute;
 	padding-top: 80px;
 	z-index: 3;
-	color: #003a99;
     margin-top: calc(14px - 1vw);
 }
 
@@ -105,7 +104,7 @@
 	margin-left: calc(47vw - 50px);
 	width: calc(8vw + 100px);
 }
-
+ 
 #thingsOut{
 	margin-top: -1000px;
 	background-color: #fcfcfc;
@@ -236,46 +235,43 @@
 }
 #row1{
     position: relative;
-    margin-top: 10vw;
-    height: 50vw; 
+    height: calc(45vw + 150px); 
 }
 #row2{
-    height: 50vw;
+    height: calc(45vw + 150px); 
 }
 .musicPicSub{
     position: relative;
-    margin-left: 12vw;
-    margin-right: 12vw;
     margin-bottom: 20px;
 }
 .musicPic{
     margin-top: 3vw;
-    height: 35vw;
+    height: calc(25vw + 150px);
     position: absolute;
 }
 #musicPic1{
-    margin-left: 9vw;
+    margin-left: calc(25vw - 100px);
 }
 #musicDes1{
-    margin-left: 9vw;
-    margin-top: 39vw;
-    width: 26vw;
+    margin-left: calc(25vw - 100px);
+    margin-top: calc(30vw + 150px);
+    width: calc(18vw + 120px);
 }
 #musicPic2{
-    margin-left: 40vw;
+    margin-left: calc(55vw - 20px);
 }
 #musicDes2{
-    margin-left: 40vw;
-    margin-top: 39vw;
-    width: calc(40vw - 130px);
+    margin-left: calc(55vw - 20px);
+    margin-top: calc(30vw + 150px);
+    width: calc(18vw + 130px);
 }
 #musicPic3{
-    margin-left: 15vw;
+    margin-left: calc(35vw - 120px);
 }
 #musicDes3{
-    margin-left: 20vw;
-    margin-top: 39vw;
-    width: 36vw;
+    margin-left: calc(35vw - 120px);
+    margin-top: calc(30vw + 150px);
+    width: calc(18vw + 390px);
 }
 .musicVidSub{
     position: relative;
@@ -305,7 +301,7 @@
 
 #who{
 	background-color: #ededed;
-	height: 1000px;
+	height: calc(60vw + 200px);
     width: 100vw;
 }
 #whoTitle{
@@ -348,28 +344,24 @@
 
 
 
-
-
 #more{
-	width: 80vw;
-	margin-left: 10vw;
-    background-color: blue;
-    display: inline-block;
 }
-.meDes{
-	top: 200px;
-	position: fixed; 
-	width: 100vw;
-	text-align: center;
-	z-index: 3;
-	font-size: 100px;
+
+#moreTitle{
+    margin-top: 40px;
+    font-size: 40px;
+    margin-left: calc(48vw - 150px);
+}
+
+#morePic{
+	width: 90vw;
+	margin-left: 3vw;
 }
 
 .morePic{
-	top:100px;
-	margin-top: 50px;
-	margin-left: 5vw;
-	margin-bottom: 50px;
-	width: 10vw;
+	margin-top:20px;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	width: 15vw;
 	border-radius: 10px;
 }

@@ -68,7 +68,7 @@
     width: calc(125px + 0.8vw);
 }
 #nav5{
-    width: calc(115px + 0.8vw);
+    width: calc(90px + 0.8vw);
     margin-right: 2vw;
 }
 
@@ -79,7 +79,7 @@
 
 #titleLine{
 	height: 1px;
-	width: calc(280px + 34vw);
+	width: calc(200px + 40vw);
 	padding-top: 100px;
 	margin-bottom: 30px;
 	margin-left: calc(30vw - 100px);
@@ -95,7 +95,7 @@
 	padding-top: 80px;
 	z-index: 3;
 	color: #003a99;
-    margin-top: calc(10px - 1vw);
+    margin-top: calc(14px - 1vw);
 }
 
 
@@ -225,8 +225,8 @@
 }
 
 #musicTitle{
-	left:32vw;
-	width: 36vw;
+	margin-left: calc(43vw - 80px);
+	width: calc(12vw + 180px);
 	background-color: #fcfcfc;
 }
 .musicDes{
@@ -267,7 +267,7 @@
 #musicDes2{
     margin-left: 40vw;
     margin-top: 39vw;
-    width: 28vw;
+    width: calc(40vw - 130px);
 }
 #musicPic3{
     margin-left: 15vw;
@@ -309,13 +309,14 @@
     width: 100vw;
 }
 #whoTitle{
-	left: 35vw;
-	width: 30vw;
+	margin-left: calc(46vw - 100px);
+	width: calc(9vw + 180px);
 	background-color: #ededed;
 }
 #whoInfo{
     width: 96vw;
     margin-left: 2vw;
+    margin-top: 60px;
 }
 .whoSub{
     float: left;
@@ -367,27 +368,8 @@
 .morePic{
 	top:100px;
 	margin-top: 50px;
-	margin-left: 110px;
+	margin-left: 5vw;
 	margin-bottom: 50px;
-	width: 130px;
+	width: 10vw;
 	border-radius: 10px;
-}
-
-#picDesA{
-	margin-left: 118px;
-}
-#picDesB{
-	margin-left: 372px;
-}
-#picDesC{
-	margin-left: 626px;
-}
-#picDesD{
-	margin-left: 860px;
-}
-.picDes{
-	margin-top: -45px;
-	margin-bottom: 50px;
-	font-size: 30px;
-	width: 150px;
 }

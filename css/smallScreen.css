@@ -1,0 +1,67 @@
+
+#loveOut{
+	z-index: 3;
+	position: relative;
+	background-color: #ededed;
+	margin-top: -60px;
+    width: 100vw;
+}
+
+#loveSubTitle{
+	font-family: "Antic Didone";
+	font-size: 30px;
+    width: 30vw;
+    text-align: center;
+    margin-left: 18vw;
+	margin-top: 70px;
+	margin-bottom: 60px;
+    color: #707070;
+}
+#loveSub{
+	min-height: 250px;
+    margin-bottom: 10px;
+}
+
+.loveTexts{
+	position: relative;
+    text-align: center;
+    margin-left: 7vw;
+    margin-bottom: 50px;
+    width: 50vw;
+}
+
+#loveDetTitle{
+	font-size: 30px;
+	width: 50vw;
+}
+
+#loveDes{
+	font-size: 20px;
+	width: 50vw;
+    background-color: antiquewhite;
+}
+
+#lovePic{
+	border-radius: 40px;
+    margin-left: 7vw;
+	width: 50vw;
+}
+
+
+.whoSub{
+    float: left;
+	left: 100px;
+	width: 24vw;
+	height: 17vw;
+    overflow: hidden;
+	font-size: 40px;
+    background-color: red;
+}
+.whoPic{
+	position: absolute;
+    width: 24vw;
+    height: 18vw;
+	text-align:center;
+	display:block;
+    margin-top: -5px;
+}

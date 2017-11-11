@@ -293,35 +293,6 @@
     margin-left: 2vw;
     margin-top: 60px;
 }
-.whoSub{
-    float: left;
-	left: 100px;
-	width: 24vw;
-	height: 17vw;
-    overflow: hidden;
-	font-size: 40px;
-    background-color: red;
-}
-.whoPic{
-	position: absolute;
-    width: 24vw;
-    height: 18vw;
-	text-align:center;
-	display:block;
-    margin-top: -5px;
-}
-.whoDes{
-	width: 200px;
-	height: 150px;
-	text-align: center;
-	vertical-align:middle;
-	font-size: 10px;
-	left: 720px;
-	top: 300px;
-}
-
-
-
 
 #more{
 }

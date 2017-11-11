@@ -1,4 +1,27 @@
 
+#loveOut{
+	z-index: 3;
+	position: relative;
+	background-color: #ededed;
+	margin-top: -60px;
+    width: 100vw;
+}
+
+#loveSubTitle{
+	font-family: "Antic Didone";
+	font-size: 30px;
+    width: 30vw;
+    text-align: center;
+    margin-left: 18vw;
+	margin-top: 70px;
+	margin-bottom: 60px;
+    color: #707070;
+}
+#loveSub{
+	min-height: 250px;
+    margin-bottom: 10px;
+}
+
 .loveTexts{
 	position: relative;
 	left: 32vw;

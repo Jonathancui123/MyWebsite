@@ -17,25 +17,28 @@
 }
 
 .thingsTitle{
-	font-size: 40px;
+	font-size: 30px;
 	margin-left: 8vw;
 	margin-bottom: 10px;
 }
 
-.thingsDate{
-	font-size: 18px;
-	margin-left: 40px;
-	color:dimgrey
-}
-
 .thingsInfo{
-	font-size: 20px;
+	font-size: 25px;
 	margin-left: 9vw;
 	margin-right: 50px;
 }
 
 
 
+#side{
+    position:fixed;
+    width: 100vw;
+    height:80px;
+    left: 0px;
+	z-index: 5;
+	background: white;
+	border-bottom: 1px solid lightgrey;
+}
 #listIcon{
     pointer-events: none;
     opacity: 0;
@@ -105,6 +108,7 @@
 #loveSub{
 	min-height: 250px;
     margin-bottom: 10px;
+    margin-left: calc()
 }
 
 .loveTexts{
@@ -115,12 +119,10 @@
 }
 
 #loveDetTitle{
-	font-size: 30px;
 	width: 30vw;
 }
 
 #loveDes{
-	font-size: 20px;
 	width: 30vw;
 }
 
@@ -128,7 +130,7 @@
 	position: absolute;
 	border-radius: 40px;
 	left: 5vw;
-	width: 20vw;
+	width: calc(10vw + 100px);
 }
 
 

@@ -1,3 +1,41 @@
+
+.thingsLine{
+	border-radius: 5px;
+	background-color: black;
+	width: 10vw;
+	height: 6px;
+	margin-top: 80px;
+	margin-left: -5vw;
+	margin-bottom: 20px;
+}
+
+.words{
+    border-radius: 20px;
+    position:relative;
+    left: 17vw;
+    width: 66vw;
+}
+
+.thingsTitle{
+	font-size: 40px;
+	margin-left: 0vw;
+	margin-bottom: 10px;
+}
+
+.thingsDate{
+	font-size: 18px;
+	margin-left: 40px;
+	color:dimgrey
+}
+
+.thingsInfo{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+
+
 #listIcon{
     position: absolute;
     width: 50px;

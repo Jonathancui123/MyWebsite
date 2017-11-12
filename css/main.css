@@ -43,7 +43,7 @@
 
 #contents{
 	margin-top: 100vh;
-	width: 99vw;
+	width: 100vw;
 }
 
 #titleLine{
@@ -89,42 +89,6 @@
     width: 100vw;
 }
 
-.thingsLine{
-	border-radius: 5px;
-	background-color: black;
-	width: 5vw;
-	height: 6px;
-	margin-top: 80px;
-	margin-left: 10vw;
-	margin-bottom: 20px;
-}
-
-.words{
-    border-radius: 20px;
-    position:relative;
-    left: 17vw;
-    width: 66vw;
-}
-
-.thingsTitle{
-	font-size: 40px;
-	margin-left: 8vw;
-	margin-bottom: 10px;
-}
-
-.thingsDate{
-	font-size: 18px;
-	margin-left: 40px;
-	color:dimgrey
-}
-
-.thingsInfo{
-	font-size: 20px;
-	margin-left: 9vw;
-	margin-right: 50px;
-}
-
-
 
 #loveTitle{
 	margin-left: calc(43vw - 120px);
@@ -153,6 +117,7 @@
     position: absolute;
     text-align: center;
     font-size: calc(16px + 1vw);
+    background-color: blue;
 }
 #row1{
     position: relative;
@@ -190,7 +155,6 @@
     margin-left: calc(35vw - 120px);
 }
 #musicDes3{
-    background-color: blue;
     margin-left: calc(35vw - 120px);
     margin-top: calc(30vw + 150px);
     width: calc(33vw + 200px);
@@ -204,13 +168,13 @@
 }
 .musicVid{
     margin-top: 25px;
-    margin-left: 10vw;
+    margin-left: calc(10vw - 10px);
     width: 70vw;
     position: absolute;
 }
 #musicDesVid{
     margin-left: 15vw;
-    margin-top: 43vw;
+    margin-top: calc(40vw + 30px);
     width: 60vw;
 }
 
@@ -218,7 +182,7 @@
     position: absolute;
     width: 14vw;
     margin-top: calc(10vw + 40px);
-    margin-left: calc(35vw + 10px);
+    margin-left: calc(37vw);
     z-index: 5;
 }
 

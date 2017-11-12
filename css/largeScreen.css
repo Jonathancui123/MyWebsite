@@ -1,3 +1,41 @@
+
+.thingsLine{
+	border-radius: 5px;
+	background-color: black;
+	width: 5vw;
+	height: 6px;
+	margin-top: 80px;
+	margin-left: 10vw;
+	margin-bottom: 20px;
+}
+
+.words{
+    border-radius: 20px;
+    position:relative;
+    left: 17vw;
+    width: 66vw;
+}
+
+.thingsTitle{
+	font-size: 40px;
+	margin-left: 8vw;
+	margin-bottom: 10px;
+}
+
+.thingsDate{
+	font-size: 18px;
+	margin-left: 40px;
+	color:dimgrey
+}
+
+.thingsInfo{
+	font-size: 20px;
+	margin-left: 9vw;
+	margin-right: 50px;
+}
+
+
+
 #listIcon{
     pointer-events: none;
     opacity: 0;
@@ -17,21 +55,24 @@
     color:#689fff;
 }
 #nav1{
-    left: 200px;
+    margin-left: calc(100vw - 580px);
     width: calc(80px + 0.8vw);
 }
 #nav2{
     width: calc(50px + 0.8vw);
+    margin-left: calc(100vw - 470px);
 }
 #nav3{
     width: calc(40px + 0.8vw);
+    margin-left: calc(100vw - 385px);
 }
 #nav4{
     width: calc(125px + 0.8vw);
+    margin-left: calc(100vw - 315px);
 }
 #nav5{
     width: calc(90px + 0.8vw);
-    margin-left: calc(100vw - 80px);
+    margin-left: calc(100vw - 150px);
 }
 
 
@@ -85,9 +126,10 @@
 
 
 
+
 #who{
 	background-color: #ededed;
-	height: calc(60vw + 200px);
+	height: calc(100vw + 250px);
     width: 100vw;
 }
 #whoInfo{
@@ -98,16 +140,15 @@
 .whoSub{
     float: left;
 	left: 100px;
-	width: 24vw;
-	height: 17vw;
+	width: 32vw;
+	height: 24vw;
     overflow: hidden;
 	font-size: 40px;
-    background-color: red;
 }
 .whoPic{
 	position: absolute;
-    width: 24vw;
-    height: 18vw;
+    width: 32vw;
+    height: 25vw;
 	text-align:center;
 	display:block;
     margin-top: -5px;

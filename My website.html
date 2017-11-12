@@ -7,9 +7,9 @@
 	</title>
 	<link rel="stylesheet"  href="css/main.css">
     
-    <link rel="stylesheet" media='screen and (min-width: 900px)' href="css/largeScreen.css">
+    <link rel="stylesheet" media='screen and (min-width: 800px)' href="css/largeScreen.css">
     
-	<link rel="stylesheet" media='screen and (max-width: 900px)' href="css/smallScreen.css">
+	<link rel="stylesheet" media='screen and (max-width: 800px)' href="css/smallScreen.css">
     
 	<script src="jquery-3.2.1.min.js"></script> 
 </head>
@@ -28,22 +28,24 @@
 	</div>   
 	
 	<div id="side"> 
-		<a id="d5">
-            <div class="dot"  id="nav5">Contact Me</div>
-        </a>
-		<a id="d4">
-            <div class="dot" id="nav4">Where I've Been</div>
-        </a>
-		<a id="d3">
-            <div class="dot"  id="nav3">Music</div>
-        </a> 
-		<a id="d2">
-            <div class="dot"  id="nav2">Coding</div>
-        </a>
-		<a id="d1">
-            <div class="dot"  id="nav1">Who I Am</div>
-        </a>
-        
+        <div id="buttons">
+            <a id="d1">
+                <div class="dot"  id="nav1">Who I Am</div>
+            </a>
+            <a id="d2">
+                <div class="dot"  id="nav2">Coding</div>
+            </a>
+            <a id="d3">
+                <div class="dot"  id="nav3">Music</div>
+            </a> 
+            <a id="d4">
+                <div class="dot" id="nav4">Where I've Been</div>
+            </a>
+            <a id="d5">
+                <div class="dot"  id="nav5">Contact Me</div>
+            </a>
+
+        </div>
         <a id="listHolder">
             <img src="Images/listIcon.png" id="listIcon">
         </a>
@@ -183,19 +185,17 @@
 			</div> 
 			         
 			<div class="musicVidSub" id="musicSub3"> 
-				<img src="Images/playButton.png" class="musicButton" id="musicButton3">
 				<video controls class="musicVid" id="musicVid5">
-				  <source  src="images/flute5.mp4" type="video/mp4">
-				Your browser does not support the video tag.
+				  <source src="images/flute5.mp4" type="video/mp4">
+				    Your browser does not support the video tag.
 				</video>
 				<div class="musicDes" id="musicDesVid">黄山 Huang Shan, China</div>
-			</div> 
+			</div>
              
 			<div class="musicVidSub" id="musicSub4"> 
-				<img src="Images/playButton.png" class="musicButton" id="musicButton4">
 				<video controls class="musicVid" id="musicVid6">
 				  <source  src="images/flute6.mp4" type="video/mp4">
-				Your browser does not support the video tag.
+				    Your browser does not support the video tag.
 				</video>
 				<div class="musicDes" id="musicDesVid">黄山 Huang Shan, China</div>
 			</div>
@@ -297,7 +297,7 @@
 			
             <a id="email" href="mailto:erica.wang.moyang@gmail.com"><img src="Images/email.png" class="morePic" ></a>
 			
-            <a id="resume" href="2017%20-%20Erica%20Wang%20Resume.pdf"><img src="Images/resume.png" class="morePic" ></a>
+            <a id="resume" href="2017%20-%20Erica%20Wang%20CV%20Resume%20.pages"><img src="Images/resume.png" class="morePic" ></a>
             </div>
 		</div>
 	</div>

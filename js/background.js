@@ -3,4 +3,8 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		background.style.top = $(this).scrollTop()/14*-1+"px";
 	})
+    $(function() {
+        $('body').removeClass('fade-out');
+    });
+    
 })

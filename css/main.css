@@ -1,3 +1,12 @@
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 #website{
     width: 100vw;
 	cursor: url('/Images/paw.png'), auto;\
@@ -192,6 +201,15 @@
 	width: calc(9vw + 180px);
 	background-color: #ededed;
 }
+
+.whoSub{
+    -webkit-filter: grayscale(100%);
+}
+.whoSub:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+
 
 #more{
     padding-top: 40px;

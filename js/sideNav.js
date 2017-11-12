@@ -19,6 +19,7 @@ $(document).ready(function (){
     })
     
     $("#listHolder").click(function(){
+        allow = false;
         if(sideOpened){
             hide();
             sideOpened = false;
@@ -40,6 +41,7 @@ $(document).ready(function (){
         if(smallScreen){
             hide();
             sideOpened = false;
+            allow = false;
         }
     })
     $("#d2").click(function(){
@@ -48,7 +50,8 @@ $(document).ready(function (){
         },1000);
         if(smallScreen){
             hide();
-            sideOpened = false;
+            sideOpened = false;;
+            allow = false;
         }
     })
     $("#d3").click(function(){
@@ -57,7 +60,8 @@ $(document).ready(function (){
         },1000);
         if(smallScreen){
             hide();
-            sideOpened = false;
+            sideOpened = false;;
+            allow = false;
         }
     })
     $("#d4").click(function(){
@@ -66,7 +70,8 @@ $(document).ready(function (){
         },1000);
         if(smallScreen){
             hide();
-            sideOpened = false;
+            sideOpened = false;;
+            allow = false;
         }
     })
 	$("#d5").click(function(){
@@ -75,7 +80,8 @@ $(document).ready(function (){
         },1000);
         if(smallScreen){
             hide();
-            sideOpened = false;
+            sideOpened = false;;
+            allow = false;
         }
     })
 });

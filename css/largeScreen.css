@@ -12,8 +12,9 @@
 .words{
     border-radius: 20px;
     position:relative;
-    left: 17vw;
-    width: 66vw;
+    left: calc(20vw - 100px);
+    width: calc(60vw + 200px);
+    background-color: blue;
 }
 
 .thingsTitle{
@@ -102,8 +103,8 @@
 
 .loveTexts{
 	position: relative;
-	left: 32vw;
-    width: calc(15vw + 200px);
+	left: calc(20vw + 180px);
+    width: calc(30vw + 20px);
 	min-height: 200px;
 }
 
@@ -118,8 +119,8 @@
 #lovePic{
 	position: absolute;
 	border-radius: 40px;
-	margin-left: calc(10vw - 50px);
-	width: calc(10vw + 150px);
+	margin-left: calc(10vw - 80px);
+	width: calc(10vw + 200px);
 }
 
 

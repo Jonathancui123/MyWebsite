@@ -44,7 +44,7 @@ $(document).ready(function (){
             allow = false;
         }
     })
-    $("#d2, #n2").click(function(){
+    $("#d2, #n2, #thingsNav").click(function(){
         $("html,body").animate({
             scrollTop: $("#loveOut").offset().top + "px"
         },1000);

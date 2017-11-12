@@ -112,6 +112,13 @@ body.fade-out {
 	padding-bottom: 300px;
     width: 100vw;
 }
+.thingsLink{
+    color: blue;
+    text-decoration: underline;
+}
+.thingsLink:hover{
+    text-shadow: 1px 1px 3px grey;
+}
 
 
 #loveTitle{

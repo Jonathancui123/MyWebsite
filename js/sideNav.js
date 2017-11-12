@@ -1,6 +1,7 @@
 $(document).ready(function (){
     var sideOpened = false;
     var smallScreen = false;
+    var allow = false;
     
     function show(){
         $("#buttons").animate({left: "-20px"});
@@ -9,15 +10,28 @@ $(document).ready(function (){
         $("#buttons").animate({left: "-320px"});
     }
     
+    $(document.body).on("click",function(){
+        if(smallScreen&&sideOpened&&allow){
+            hide();
+            allow=false;
+            sideOpened = false;
+        }
+    })
+    
     $("#listHolder").click(function(){
-        smallScreen = true;
         if(sideOpened){
             hide();
             sideOpened = false;
+            allow=false;
+            
         }else{
             show();
             sideOpened = true;
+            setTimeout(function(){
+                allow = true;
+            },100);
         }
+        smallScreen = true;
     })
     $("#d1").click(function(){
         $("html,body").animate({

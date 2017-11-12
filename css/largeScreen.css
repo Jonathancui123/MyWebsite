@@ -42,17 +42,15 @@
 }
 #buttons{
     position: absolute;
-    margin-top: 80px;
-    left: -320px;
     padding-left: 20px;
     border-radius: 10px;
-    background-color: #616977;
+    margin-left: 320px;
     height: 50vh;
     width: 300px;
 }
 .dot{
     position: absolute;
-    text-align: right;
+    text-align: center;
 	padding: 0.7vw;
 	margin-right: 0.2vw;
     margin-top: calc(30px - 0.8vw);
@@ -64,9 +62,27 @@
 	background-color: #d6e5ff;
     color:#689fff;
 }
-#nav5{
-    border-bottom: 0px solid;
+#nav1{
+    width: calc(80px + 0.8vw);
+    margin-left: calc(100vw - 580px);
 }
+#nav2{
+    width: calc(50px + 0.8vw);
+    margin-left: calc(100vw - 470px);
+}
+#nav3{
+    width: calc(40px + 0.8vw);
+    margin-left: calc(100vw - 385px);
+}
+#nav4{
+    width: calc(125px + 0.8vw);
+    margin-left: calc(100vw - 315px);
+}
+#nav5{
+    width: calc(95px + 0.8vw);
+    margin-left: calc(100vw - 165px);
+}
+
 
 
 

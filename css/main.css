@@ -224,7 +224,7 @@ body.fade-out {
 
 #morePic{
 	width: 90vw;
-	margin-left: 5vw;
+	margin-left: calc(42vw - 180px);
     margin-top: 100px;
     margin-bottom: 100px;
     z-index: 10;
@@ -234,6 +234,6 @@ body.fade-out {
 	margin-top:20px;
 	margin-left: 1vw;
 	margin-right: 1vw;
-	width: 15vw;
+	width: calc(2vw + 60px);
 	border-radius: 10px;
 }

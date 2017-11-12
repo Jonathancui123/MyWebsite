@@ -4,10 +4,10 @@ $(document).ready(function (){
     var allow = false;
     
     function show(){
-        $("#buttons").animate({left: "-20px"});
+        $("#buttons").animate({top: "0px"});
     }    
     function hide(){
-        $("#buttons").animate({left: "-320px"});
+        $("#buttons").animate({top: "-350px"});
     }
     
     $(document.body).on("click",function(){

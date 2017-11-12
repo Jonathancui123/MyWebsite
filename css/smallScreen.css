@@ -20,18 +20,12 @@
 	font-size: 30px;
 	margin-left: 0vw;
 	margin-bottom: 10px;
-}
-
-.thingsDate{
-	font-size: 18px;
-	margin-left: 40px;
-	color:dimgrey
+    text-align:center;
 }
 
 .thingsInfo{
+    text-align: center;
 	font-size: 25px;
-	margin-left: 20px;
-	margin-right: 50px;
 }
 
 
@@ -51,24 +45,26 @@
     border-radius: 5px;
 }
 #buttons{
-    padding-top: 20px;
-    
     position: absolute;
-    top: -350px;
+    top: -370px;
     left: 28vw;
     border-radius: 10px;
     background-color: #616977;
-    height: 350px;
+    height: 300px;
     width: 50vw;
 }
 .dot{
     font-size: 30px;
-    height: 60px;
-    width: 50vw;
+    height: 40px;
+    width: 46vw;
     border-bottom: 1px solid;
     text-align: center;
     color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
     padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 #nav5{
     border-bottom: 0px solid;

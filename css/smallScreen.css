@@ -36,6 +36,8 @@
 
 
 
+#side{
+}
 #listIcon{
     position: absolute;
     width: 50px;
@@ -45,7 +47,7 @@
 #buttons{
     position: absolute;
     margin-top: 80px;
-    left: -320px;
+    left: -380px;
     padding-left: 20px;
     border-radius: 10px;
     background-color: #616977;
@@ -111,14 +113,15 @@
 
 #lovePic{
 	border-radius: 40px;
-    margin-left: 7vw;
-	width: 50vw;
+    margin-left: -2vw;
+	width: 70vw;
 }
 
 
 
 #who{
-	background-color: #ededed;
+	background-image: url("/Travel/travelBackground.jpg");
+	background-image: url("/Travel/travelBackground.jpg");
 	height: calc(100vw + 250px);
     width: 100vw;
 }

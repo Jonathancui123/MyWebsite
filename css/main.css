@@ -23,12 +23,12 @@ body.fade-out {
 	position: absolute;
 }
 #nmtext{
+    position: absolute;
 	color: white;
-    font-size: 50px;
+    font-size: calc(1vh + 1vw + 40px);
 	width:90vw;
-    margin-top: 40vh; 
+    margin-top: calc(30vh + 3vw - 30px); 
     text-align: center;
-	position: relative;
 }
 #background{
     margin-top: -300px;
@@ -38,33 +38,35 @@ body.fade-out {
 	z-index: -10;
 	position: fixed;
 }
-#side{
-    position:fixed;
-    width: 100vw;
-    height:80px;
-    left: 0px;
-	z-index: 5;
-	background: white;
-	border-bottom: 1px solid lightgrey;
-}
 #nameNav{
-    margin-top: 30px;
     text-align: center;
+    margin-top: calc(30vh + 110px);
     margin-left: calc(43vw - 100px);
     width: calc(5vw + 200px);
+    z-index: -10;
+}
+@media all and (max-height: 500px) {
+    #nameNav {
+        pointer-events: none;
+        opacity: 0;
+    }
 }
 .nav{
-    font-size: 30px;
+    font-size: calc(2vh + 13px);
     margin-top: 5px;
-    padding: 5px;
+    padding: calc(1vh + 1px);
     background-color: blue;
     border-radius: 5px;
+}
+.nav:hover{
+    background-color: white;
 }
 
 
 
 #contents{
-	margin-top: 100vh;
+    z-index: 3;
+	padding-top: 100vh;
 	width: 100vw;
 }
 
@@ -105,7 +107,7 @@ body.fade-out {
 }
  
 #thingsOut{
-	margin-top: -1000px;
+	margin-top: -150vh;
 	background-color: #fcfcfc;
 	padding-bottom: 300px;
     width: 100vw;
@@ -116,6 +118,14 @@ body.fade-out {
 	margin-left: calc(43vw - 120px);
 	width: calc(15vw + 230px);
 	background-color: #ededed;
+}
+#loveDetTitle{
+    
+	font-size: calc(1vw + 20px);
+}
+#loveDes{
+    
+	font-size: calc(0.5vw + 15px);
 }
 
 
@@ -247,6 +257,7 @@ body.fade-out {
 #more{
     padding-top: 40px;
 	background-color: #fcfcfc;
+    padding-bottom: 60px;
 }
 
 #moreTitle{

@@ -34,9 +34,9 @@ $(document).ready(function (){
         }
         smallScreen = true;
     })
-    $("#d1","#n1").click(function(){
+    $("#d1, #n1").click(function(){
         $("html,body").animate({
-          scrollTop: $("#thingsOut").offset().top-60 + "px"
+          scrollTop: $("#thingsOut").offset().top + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -44,9 +44,9 @@ $(document).ready(function (){
             allow = false;
         }
     })
-    $("#d2").click(function(){
+    $("#d2, #n2").click(function(){
         $("html,body").animate({
-            scrollTop: $("#loveOut").offset().top-60 + "px"
+            scrollTop: $("#loveOut").offset().top + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -54,9 +54,9 @@ $(document).ready(function (){
             allow = false;
         }
     })
-    $("#d3").click(function(){
+    $("#d3, #n3").click(function(){
         $("html,body").animate({
-            scrollTop: $("#musicOut").offset().top-60 + "px"
+            scrollTop: $("#musicOut").offset().top + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -64,9 +64,9 @@ $(document).ready(function (){
             allow = false;
         }
     })
-    $("#d4").click(function(){
+    $("#d4, #n4").click(function(){
         $("html,body").animate({
-            scrollTop: $("#who").offset().top-60 + "px"
+            scrollTop: $("#who").offset().top + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -74,9 +74,9 @@ $(document).ready(function (){
             allow = false;
         }
     })
-	$("#d5").click(function(){
+	$("#d5, #n5").click(function(){
         $("html,body").animate({
-            scrollTop: $("#more").offset().top-60 + "px"
+            scrollTop: $("#more").offset().top + "px"
         },1000);
         if(smallScreen){
             hide();

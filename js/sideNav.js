@@ -34,7 +34,7 @@ $(document).ready(function (){
         }
         smallScreen = true;
     })
-    $("#d1").click(function(){
+    $("#d1","#n1").click(function(){
         $("html,body").animate({
           scrollTop: $("#thingsOut").offset().top-60 + "px"
         },1000);

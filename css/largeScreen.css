@@ -136,7 +136,7 @@
 
 
 #who{
-	background-color: #ededed;
+	background-image: url("/Travel/travelBackground.jpg");
 	height: calc(60vw + 200px);
     width: 100vw;
 }

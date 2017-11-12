@@ -10,11 +10,16 @@
 }
 
 .words{
+    position:relative;
+    left: calc(20vw - 80px);
+    width: calc(60vw + 160px);
+}
+#love{
     border-radius: 20px;
     position:relative;
     left: calc(20vw - 100px);
     width: calc(60vw + 200px);
-    background-color: blue;
+    padding-bottom: 80px;
 }
 
 .thingsTitle{
@@ -98,13 +103,13 @@
 
 #loveSub{
 	min-height: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .loveTexts{
 	position: relative;
 	left: calc(20vw + 180px);
-    width: calc(30vw + 20px);
+    width: calc(30vw + 80px);
 	min-height: 200px;
 }
 
@@ -119,8 +124,9 @@
 #lovePic{
 	position: absolute;
 	border-radius: 40px;
-	margin-left: calc(10vw - 80px);
-	width: calc(10vw + 200px);
+    margin-top: 20px;
+	margin-left: calc(10vw + 10px);
+	width: calc(10vw + 100px);
 }
 
 

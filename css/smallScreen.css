@@ -51,6 +51,8 @@
     border-radius: 5px;
 }
 #buttons{
+    padding-top: 20px;
+    
     position: absolute;
     top: -350px;
     left: 28vw;

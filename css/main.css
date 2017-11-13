@@ -92,26 +92,30 @@ body.fade-out {
 #titleDes{
     width: 80vw;
     min-height: 50px;
-    margin-left: 10vw;
+    margin-left: 9vw;
+    margin-top:40px;
+    margin-bottom: 70px;
     text-align: center;
     font-size: 22px;
     color: #515151;
     position: relative;
+    border-radius: 10px;
+    padding: 1vw;
 }
 
 
 #thingsTitle{
 	width: 26vw;
-	background-color: #fcfcfc;
+	background-color: #ededed;
 	margin-left: calc(47vw - 50px);
 	width: calc(8vw + 100px);
 }
  
 #thingsOut{
 	margin-top: -150vh;
-	background-color: #fcfcfc;
-	padding-bottom: 300px;
+	background-color: #ededed;
     width: 100vw;
+    padding-bottom: 150px;
 }
 .thingsLink{
     color: blue;
@@ -120,15 +124,18 @@ body.fade-out {
 .thingsLink:hover{
     text-shadow: 1px 1px 3px grey;
 }
-
+#things{
+    padding-bottom: 200px;
+}
 #love{
     margin-top: 40px;
+    padding-bottom: 200px;
 }
 
 #loveTitle{
 	margin-left: calc(43vw - 120px);
 	width: calc(15vw + 230px);
-	background-color: #ededed;
+	background-color: #fcfcfc;
 }
 #loveDetTitle{
     
@@ -143,9 +150,9 @@ body.fade-out {
 #musicOut{
 	z-index: 3;
 	position: relative;
-	background-color: #fcfcfc;
+	background-color: #ededed;
 	margin-top: -60px;
-    padding-bottom: 80px;
+    padding-bottom: 140px;
     min-height: 230vw;
     width: 100vw;
 }
@@ -153,19 +160,20 @@ body.fade-out {
 #musicTitle{
 	margin-left: calc(43vw - 80px);
 	width: calc(12vw + 180px);
-	background-color: #fcfcfc;
+	background-color: #ededed;
 }
 .musicDes{
     position: absolute;
     text-align: center;
     font-size: calc(16px + 1vw);
-    background-color: blue;
 }
 #row1{
+    margin-top: -40px;
     position: relative;
-    height: calc(45vw + 150px); 
+    height: calc(40vw + 220px); 
 }
 #row2{
+    position: relative;
     height: calc(45vw + 150px); 
 }
 .musicPicSub{
@@ -204,9 +212,10 @@ body.fade-out {
 .musicVidSub{
     position: relative;
     width: 90vw;
-    height: 50vw; 
+    height: calc(40vw + 150px); 
     margin-left: 5vw;
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-bottom: -40px;
 }
 .musicVid{
     margin-top: 25px;
@@ -220,19 +229,25 @@ body.fade-out {
     width: 60vw;
 }
 
-.musicButton{
-    position: absolute;
-    width: 14vw;
-    margin-top: calc(10vw + 40px);
-    margin-left: calc(37vw);
-    z-index: 5;
-}
-
-
 #whoTitle{
 	margin-left: calc(46vw - 100px);
 	width: calc(9vw + 180px);
     color: white;
+}
+
+#titleDesWhere{
+    
+    width: 80vw;
+    min-height: 50px;
+    margin-left: 9vw;
+    margin-top:40px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 22px;
+    color:#f2f2f2;
+    position: relative;
+    border-radius: 10px;
+    padding: 1vw;
 }
 
 .whoLine1{
@@ -255,13 +270,6 @@ body.fade-out {
 	border-bottom: 2px solid;
 }
 
-.whoSub{
-    -webkit-filter: grayscale(100%);
-}
-.whoSub:hover{
-    -webkit-filter: grayscale(0%);
-}
-
 
 
 #more{
@@ -277,8 +285,8 @@ body.fade-out {
 }
 
 #morePic{
-	width: 90vw;
-	margin-left: calc(42vw - 180px);
+	width: calc(16vw + 380px);
+	margin-left: calc(42vw - 190px);
     margin-top: 100px;
     margin-bottom: 100px;
     z-index: 10;

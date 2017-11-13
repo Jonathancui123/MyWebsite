@@ -36,7 +36,7 @@ $(document).ready(function (){
     })
     $("#d1, #n1").click(function(){
         $("html,body").animate({
-          scrollTop: $("#thingsOut").offset().top + "px"
+          scrollTop: $("#thingsOut").offset().top-50 + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -46,7 +46,7 @@ $(document).ready(function (){
     })
     $("#d2, #n2, #thingsNav").click(function(){
         $("html,body").animate({
-            scrollTop: $("#loveOut").offset().top + "px"
+            scrollTop: $("#loveOut").offset().top-50 + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -56,7 +56,7 @@ $(document).ready(function (){
     })
     $("#d3, #n3").click(function(){
         $("html,body").animate({
-            scrollTop: $("#musicOut").offset().top + "px"
+            scrollTop: $("#musicOut").offset().top-50 + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -66,7 +66,7 @@ $(document).ready(function (){
     })
     $("#d4, #n4").click(function(){
         $("html,body").animate({
-            scrollTop: $("#who").offset().top + "px"
+            scrollTop: $("#who").offset().top-50 + "px"
         },1000);
         if(smallScreen){
             hide();
@@ -76,7 +76,7 @@ $(document).ready(function (){
     })
 	$("#d5, #n5").click(function(){
         $("html,body").animate({
-            scrollTop: $("#more").offset().top + "px"
+            scrollTop: $("#more").offset().top-50 + "px"
         },1000);
         if(smallScreen){
             hide();

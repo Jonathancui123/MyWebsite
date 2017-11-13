@@ -19,7 +19,7 @@
     position:relative;
     left: calc(20vw - 100px);
     width: calc(60vw + 200px);
-    padding-bottom: 80px;
+    margin-bottom: -200px;
 }
 
 .thingsTitle{
@@ -96,7 +96,7 @@
 #loveOut{
 	z-index: 3;
 	position: relative;
-	background-color: #ededed;
+	background-color: #fcfcfc;
 	margin-top: -60px;
     width: 100vw;
 }
@@ -108,25 +108,27 @@
 
 .loveTexts{
 	position: relative;
-	left: calc(20vw + 180px);
-    width: calc(30vw + 80px);
-	min-height: 200px;
+	left: calc(30vw + 70px);
+    width: calc(15vw + 190px);
+	min-height: 100px;
 }
 
 #loveDetTitle{
-	width: 30vw;
+    width: calc(25vw + 200px);
 }
 
 #loveDes{
-	width: 30vw;
+    margin-top: 20px;
+    width: calc(15vw + 190px);
+    margin-bottom: 60px;
 }
 
 #lovePic{
 	position: absolute;
 	border-radius: 40px;
     margin-top: 20px;
-	margin-left: calc(10vw + 10px);
-	width: calc(10vw + 100px);
+	margin-left: calc(18vw - 110px);
+	width: calc(10vw + 150px);
 }
 
 
@@ -139,13 +141,12 @@
     width: 100vw;
 }
 #whoInfo{
-    width: 96vw;
+    width: 80w;
     margin-left: 10vw;
     margin-top: 60px;
 }
 .whoSub{
     float: left;
-	left: 100px;
 	width: 20vw;
 	height: 14vw;
     overflow: hidden;
@@ -159,4 +160,66 @@
 	text-align:center;
 	display:block;
     margin-top: -5px;
+}
+#whereTable{
+    position: absolute;
+    width: 80vw;
+    height: 42vw;
+    margin-left: 10vw;
+    z-index: 3;
+    margin-top: -5px;
+}
+.whereCell{
+    float: left;
+    padding-top: 4vw;
+	width: 18vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+	height: 10vw;
+    overflow: hidden;
+	font-size: 40px;
+    z-index: 0;
+    text-align:center;
+    background-color: lightblue;
+    opacity: 0;
+    font-size: calc(4vw - 10px);
+}
+.whereCell:hover{
+    opacity: 0.7;
+}
+.whereCell1{
+    float: left;
+    padding-top: 4vw;
+	width: 18vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+	height: 11vw;
+    overflow: hidden;
+	font-size: 40px;
+    z-index: 0;
+    text-align:center;
+    background-color: lightblue;
+    opacity: 0;
+    font-size: calc(4vw - 10px);
+}
+.whereCell1:hover{
+    opacity: 0.7;
+}
+.whereCell2{
+    float: left;
+    padding-top: 4vw;
+	width: 18vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+	height: 11vw;
+    overflow: hidden;
+	font-size: 40px;
+    z-index: 0;
+    text-align:center;
+    background-color: lightblue;
+    opacity: 0;
+    font-size: calc(4vw - 10px);
+}
+.whereCell2:hover{
+    opacity: 0.7;
 }

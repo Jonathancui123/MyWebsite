@@ -36,7 +36,7 @@ $(document).ready(function (){
     })
     $("#d1, #n1").click(function(){
         $("html,body").animate({
-          scrollTop: $("#thingsOut").offset().top-50 + "px"
+          scrollTop: $("#thingsOut").offset().top + "px"
         },1000);
         if(smallScreen){
             hide();

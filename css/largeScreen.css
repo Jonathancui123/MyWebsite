@@ -3,7 +3,7 @@
 	border-radius: 5px;
 	background-color: black;
 	width: 10vw;
-	height: 6px;
+	height: 4px;
 	margin-top: 80px;
 	margin-left: 10vw;
 	margin-bottom: 20px;
@@ -23,15 +23,18 @@
 }
 
 .thingsTitle{
-	font-size: 30px;
+	font-size: 50px;
 	margin-left: 7vw;
 	margin-bottom: 12px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
 }
 
 .thingsInfo{
 	font-size: 25px;
 	margin-left: 10vw;
 	margin-right: 50px;
+    font-family: 'Forum', cursive;
 }
 
 
@@ -114,12 +117,12 @@
 }
 
 #loveDetTitle{
-    width: calc(25vw + 200px);
+    width: calc(25vw + 210px);
 }
 
 #loveDes{
     margin-top: 20px;
-    width: calc(15vw + 190px);
+    width: calc(15vw + 290px);
     margin-bottom: 60px;
 }
 

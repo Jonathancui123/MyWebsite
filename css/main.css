@@ -77,17 +77,19 @@ body.fade-out {
 	margin-bottom: 30px;
 	margin-left: calc(30vw - 100px);
 	border-bottom: 2px solid;
+    color: #1a3156;
 }
 
 .title{
     text-align: center;
-	font-size: calc(20px + 1vw);
-    font-family: Tahoma, Geneva, sans-serif;
+	font-size: calc(24px + 1vw);
+    font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	position: absolute;
 	padding-top: 80px;
 	z-index: 3;
-    margin-top: calc(14px - 1vw);
+    margin-top: calc(8px - 0.5vw);
+    color: #1a3156;
 }
 #titleDes{
     width: 80vw;
@@ -96,11 +98,12 @@ body.fade-out {
     margin-top:40px;
     margin-bottom: 70px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     color: #515151;
     position: relative;
     border-radius: 10px;
     padding: 1vw;
+    font-family: 'Arima Madurai', cursive;
 }
 
 
@@ -131,18 +134,23 @@ body.fade-out {
     margin-top: 40px;
     padding-bottom: 200px;
 }
-
+.thingsTitle{
+    color: #2e69c9;
+}
 #loveTitle{
 	margin-left: calc(43vw - 120px);
 	width: calc(15vw + 230px);
 	background-color: #fcfcfc;
 }
 #loveDetTitle{
-    
-	font-size: calc(1vw + 25px);
+    color: #2e69c9;
+    font-family: 'Roboto Slab', serif;
+	font-size: calc(1vw + 14px);
 }
 #loveDes{
 	font-size: calc(0.1vw + 20px);
+    font-family: 'Dosis', sans-serif;
+    color: #002763;
 }
 
 
@@ -233,6 +241,7 @@ body.fade-out {
 	margin-left: calc(46vw - 100px);
 	width: calc(9vw + 180px);
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;;
 }
 
 #titleDesWhere{
@@ -243,11 +252,12 @@ body.fade-out {
     margin-top:40px;
     margin-bottom: 70px;
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     color:#f2f2f2;
     position: relative;
     border-radius: 10px;
     padding: 1vw;
+    font-family: 'Crimson Text', serif;
 }
 
 .whoLine1{
@@ -282,6 +292,7 @@ body.fade-out {
     margin-top: 40px;
     font-size: 40px;
     margin-left: calc(52vw - 170px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
 #morePic{

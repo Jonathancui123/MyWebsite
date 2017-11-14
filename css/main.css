@@ -23,11 +23,24 @@ body.fade-out {
 	position: absolute;
 }
 #nmtext{
+    background-color: darkslategray;
+    border-radius: 10px;
     position: absolute;
 	color: white;
     font-size: calc(1vh + 1vw + 40px);
 	width:90vw;
-    margin-top: calc(30vh + 3vw - 30px); 
+    margin-top: calc(30vh + 3vw - 58px); 
+    text-align: center;
+}
+#nameDes{
+    background-color: darkslategray;
+    border-radius: 10px;
+    position: absolute;
+	color: white;
+    font-size: calc(1vh + 1vw + 5px);
+    margin-left: 10vw;
+	width:70vw;
+    margin-top: calc(30vh + 3vw - 100px); 
     text-align: center;
 }
 #background{
@@ -55,11 +68,12 @@ body.fade-out {
     font-size: calc(2vh + 13px);
     margin-top: 5px;
     padding: calc(1vh + 1px);
-    background-color: blue;
+    background-color: #0a377f;
     border-radius: 5px;
+    color: white;
 }
 .nav:hover{
-    background-color: white;
+    background-color: #0d53c4;
 }
 
 
@@ -95,10 +109,11 @@ body.fade-out {
     width: 80vw;
     min-height: 50px;
     margin-left: 9vw;
-    margin-top:40px;
+    margin-top:45px;
     margin-bottom: 70px;
     text-align: center;
-    font-size: 24px;
+    font-size: calc(0.4vw + 17px);
+    line-height: 30px;
     color: #515151;
     position: relative;
     border-radius: 10px;
@@ -137,6 +152,14 @@ body.fade-out {
 .thingsTitle{
     color: #2e69c9;
 }
+
+
+.thingsInfo{
+	margin-left: 10vw;
+	margin-right: 50px;
+	font-size: 25px;
+    font-family: 'Forum', cursive;
+}
 #loveTitle{
 	margin-left: calc(43vw - 120px);
 	width: calc(15vw + 230px);
@@ -144,8 +167,8 @@ body.fade-out {
 }
 #loveDetTitle{
     color: #2e69c9;
-    font-family: 'Roboto Slab', serif;
-	font-size: calc(1vw + 14px);
+    font-family: 'Comfortaa', cursive;
+	font-size: calc(1vw + 19px);
 }
 #loveDes{
 	font-size: calc(0.1vw + 20px);
@@ -173,7 +196,8 @@ body.fade-out {
 .musicDes{
     position: absolute;
     text-align: center;
-    font-size: calc(16px + 1vw);
+    font-size: calc(15px + 0.5vw);
+    font-family: 'Comfortaa', cursive;
 }
 #row1{
     margin-top: -40px;
@@ -280,7 +304,20 @@ body.fade-out {
 	border-bottom: 2px solid;
 }
 
+.whereCell{
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+}
 
+.whereCell1{
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+}
+
+.whereCell2{
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+}
 
 #more{
     padding-top: 40px;
@@ -291,14 +328,17 @@ body.fade-out {
 #moreTitle{
     margin-top: 40px;
     font-size: 40px;
-    margin-left: calc(52vw - 170px);
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
 #morePic{
-	width: calc(16vw + 380px);
-	margin-left: calc(42vw - 190px);
-    margin-top: 100px;
+	width: calc(19vw + 330px);
+	margin-left: calc(40.5vw - 165px);
+    margin-top: 30px;
     margin-bottom: 100px;
     z-index: 10;
 }
@@ -310,3 +350,4 @@ body.fade-out {
 	width: calc(2vw + 60px);
 	border-radius: 10px;
 }
+
